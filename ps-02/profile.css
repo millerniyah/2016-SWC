@@ -1,8 +1,11 @@
 div {
   border:5px solid grey;
-  background-color: white
+  background-color: white;
   height: 100px;
   width: 100px;
+  text-align: center;
+  margin: 0 auto;
+
 }
 h1 {
   font-family:Verdana;
