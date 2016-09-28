@@ -1,0 +1,45 @@
+.first{
+  font-size: 2400%;
+  text-align: center;
+  font-family: fantasy;
+  font-weight: 800;
+  color: #FF33CC;
+}
+
+.second{
+  font-size: 1500%;
+  text-align: left;
+  font-family: fantasy;
+  font-weight: 800;
+  color: 	#00FFFF;
+}
+
+.third{
+  font-size: 2000%;
+  text-align: left;
+  font-family: fantasy;
+  font-weight: 800;
+  color: 	#FFFF66;
+  float: right;
+}
+
+.fourth{
+  font-size: 1000%;
+  text-align: right;
+  font-family: fantasy;
+  font-weight: 800;
+  color: 	#EE82EE;
+  float: right;
+}
+
+.fifth{
+  font-size: 1000%;
+  text-align: right;
+  font-family: fantasy;
+  font-weight: 800;
+  color: 	#7FFFD4;
+  float: center;
+}
+body {
+  background-color: #00FF00;
+}

@@ -1,0 +1,24 @@
+.square1{
+  position:absolute; top:0;
+      height:110%; width:80%;
+      display:block;
+      margin:5em;
+      background-color: lightgrey;
+}
+
+.square2{
+  position: absolute;
+  height:60%; width:40%;
+  display:block;
+  margin:1em;
+  background-color: black
+}
+
+
+.square3{
+  position:absolute;
+  height:30%; width:20%;
+  display:block;
+  margin:1em;
+  background-color: white;
+}
