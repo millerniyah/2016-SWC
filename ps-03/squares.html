@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<link type="text/css" rel="stylesheet" href=squares.css/>
+
+    <title>canvas starter document</title>
+    
+  </head>
+
+  <body>
+    <canvas id="canvas" width="500" height="500"></canvas>
+  </body>
+
+  <script type="text/javascript">
+    var canvas = document.getElementById('canvas');
+    var drawingPad = canvas.getContext('2d');
+
+    console.log(canvas);
+    console.log(drawingPad);
+
+    drawingPad.fillStyle = "hsla(0,10%,10%,1)";
+    drawingPad.fillRect(0, 0, 20, 20);
+
+    drawingPad.fillStyle = "hsla(0,10%,60%,1)";
+    drawingPad.fillRect(40, 40, 20, 20);
+
+  </script>
+
+</html>
