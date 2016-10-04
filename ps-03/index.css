@@ -29,3 +29,26 @@
   text-decoration: none;
   background-color: #F8F8FF;
 }
+
+.link2{
+  border-top: 2px solid #ff99cc;
+  border-bottom: 2px solid #ff99cc;
+  border-left: 2px solid #ff99cc;
+  border-right: 2px solid #ff99cc;
+  text-align: center;
+  width: 8em;
+  height:2.5em;
+  margin-left: 48%;
+  margin-top:5%;
+  font-family: fantasy;
+  font-size: 25px;
+  text-decoration: none;
+  background-color: #F8F8FF;
+}
+
+a:visited {
+  text-decoration: none;
+}
+a:hover{
+  color: grey;
+}
