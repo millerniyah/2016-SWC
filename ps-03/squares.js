@@ -1,5 +1,6 @@
 
     var canvas = document.getElementById('canvas');
+    var canvas = document.getElementByID('canvas2');
     var drawingPad = canvas.getContext('2d');
 
     console.log(canvas);

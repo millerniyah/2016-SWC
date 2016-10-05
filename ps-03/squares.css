@@ -10,11 +10,21 @@ body {
   right: 0px;
 }
 
-canvas {
-  border: 0.5px solid hsl(0,10%,90%);
+.canvas {
+  border: 5px dotted hsl(0,10%,90%);
   width: auto;
   height: 50%;
   transform: rotate(45deg);
   background-color: grey
+
+}
+
+#canvas2 {
+  border: 2px dotted hsl(0,10%,90%);
+  width: auto;
+  height: 50%;
+  transform: rotate(45deg);
+  background-color: grey
+  margin-top: 50em;
 
 }
