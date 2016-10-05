@@ -10,7 +10,7 @@
 <body>
 
   <form>
-  <input type="button" value="Back" onclick="window.location.href='file:///Users/NiyahGonzalez/Documents/2016-SWC/ps-02/index.html'" />
+  <input type="button" value="Back" onclick="window.location.href='https://millerniyah.github.io/2016-SWC/ps-02/index.html'" />
   </form>
 
 
