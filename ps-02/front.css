@@ -68,11 +68,9 @@ p {
   display: inline-block;
   font-size: 20px;
   color:lightblue;
-  position: relative;
-  }
+}
 
-
-.square2 {
+  .square2 {
   height:100px;
   width: 250px;
   border-top: 2.5px solid grey;
