@@ -68,7 +68,7 @@ p {
   display: inline-block;
   font-size: 20px;
   color:lightblue;
-  position: absolute;
+  position: relative;
   }
 
 
@@ -89,7 +89,6 @@ p {
   display: inline-block;
   font-size: 20px;
   color: lightblue;
-  position: absolute;
 }
 
 
@@ -111,7 +110,6 @@ p {
   float: right;
   font-size: 20px;
   color: lightblue;
-  position: absolute;
 }
 
 
@@ -134,7 +132,6 @@ p {
   clear: both;
   font-size: 20px;
   color:lightblue;
-  position: absolute;
 }
 
 a:link{
