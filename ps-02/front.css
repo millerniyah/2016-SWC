@@ -67,7 +67,6 @@ p {
   padding-top: 10%;
   font-size: 20px;
   color:lightblue;
-  position: sticky;
 }
 
   .square2 {
@@ -86,9 +85,7 @@ p {
   padding-top: 10%;
   font-size: 20px;
   color: lightblue;
-  position: sticky;
 }
-
 
 .square3 {
   height:100px;
@@ -107,7 +104,6 @@ p {
   float: right;
   font-size: 20px;
   color: lightblue;
-  position: sticky;
 }
 
 
@@ -129,7 +125,6 @@ p {
   clear: both;
   font-size: 20px;
   color:lightblue;
-  position: sticky;
 }
 
 a:link{
