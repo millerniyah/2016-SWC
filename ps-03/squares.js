@@ -11,3 +11,5 @@
 
     drawingPad.fillStyle = "hsla(0,10%,60%,1)";
     drawingPad.fillRect(40, 40, 20, 20);
+
+    console.log(canvas2)
