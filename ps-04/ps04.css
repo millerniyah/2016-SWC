@@ -9,13 +9,15 @@ body {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    background: hsl(172, 17%, 79%);
+    background: hsl(100%, 50%, 15%);
 }
 
 .gif{
   align-items: center;
+  float: right;
 }
 
 .header{
   align-items: center;
+  border-top: 2px dotted grey;
 }
