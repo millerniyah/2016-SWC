@@ -1,0 +1,8 @@
+.canvasGrid {
+  border: 5px dotted hsl(0,10%,90%);
+  width: auto;
+  height: 50%;
+  transform: rotate(45deg);
+  background-color: black;
+
+}
