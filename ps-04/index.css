@@ -1,4 +1,26 @@
-.name{
+body {
+  background-color: #778899;
+}
+
+.Front-Page{
+  border-top: 3px double #4682B4;
+  border-bottom:3px double grey;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.ps-04{
+  border-top: 3px double #4682B4;
+  border-bottom:3px double grey;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.problems{
   border-top: 3px double #4682B4;
   border-bottom:3px double grey;
   margin-left: 10%;
