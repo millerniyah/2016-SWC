@@ -2,7 +2,7 @@ body {
   background-color: #778899;
 }
 
-.Front-Page{
+#Front-Page{
   border-top: 3px double #4682B4;
   border-bottom:3px double grey;
   margin-left: 10%;
