@@ -1,39 +1,16 @@
 body {
-  background-color: #778899;
+  font-family: 'helvetica', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
-
-#Front-Page{
-  border-top: 3px double #4682B4;
-  border-bottom:3px double grey;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5%;
-  text-align: center;
-}
-
-.ps-04{
-  border-top: 3px double #4682B4;
-  border-bottom:3px double grey;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5%;
-  text-align: center;
-}
-
-.problems{
-  border-top: 3px double #4682B4;
-  border-bottom:3px double grey;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5%;
-  text-align: center;
-}
-
-.link{
-  border-top: 3px double #4682B4;
-  border-bottom:3px double grey;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5%;
-  text-align: center;
+canvas {
+  border: 1px solid hsl(0,10%,90%);
+  width: auto;
+  height: 50%;
 }
