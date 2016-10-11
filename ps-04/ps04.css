@@ -11,3 +11,11 @@ body {
     right: 0px;
     background: hsl(172, 17%, 79%);
 }
+
+.gif{
+  align-items: center;
+}
+
+.header{
+  align-items: center;
+}
