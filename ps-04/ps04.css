@@ -9,12 +9,12 @@ body {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    background: hsl(100%, 50%, 15%);
+    background: hsl(100, 50%, 20%);
 }
 
 .gif{
   align-items: center;
-  float: right;
+  margin-top: -20%;
 }
 
 .header{
