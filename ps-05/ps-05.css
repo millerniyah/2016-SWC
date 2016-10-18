@@ -1,0 +1,59 @@
+h1 {
+  font-family:fantasy;
+  font-weight: 100;
+  font-stretch: ultra-expanded;
+  color:lightblue;
+  height: 25px;
+  margin-top:2%;
+  text-align: center;
+}
+
+
+.datebox {
+  border-bottom: 2px dotted grey;
+  border-top: 2px dotted grey;
+  background-color: white;
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right:20px;
+}
+
+
+p {
+  border: 2px solid lightblue;
+  font-family: fantasy;
+  color:grey;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.name {
+  font-family:fantasy;
+  font-weight: 100;
+  font-stretch: ultra-expanded;
+  color:darkgrey;
+  height: 20%;
+  text-align: center;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:visited{
+  color: lightblue;
+}
