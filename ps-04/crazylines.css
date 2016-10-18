@@ -1,8 +1,8 @@
 .canvas {
   border: 1px dashed hsl(0,10%,75%);
-  width: 39.5%;
+  width: 48%;
   height: 50%;
-  margin-left: 30%;
+  margin-left: 25%;
 }
 
 body{

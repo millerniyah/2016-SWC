@@ -1,15 +1,31 @@
+body {
+  background-color: black;
+  font-family: 'Droid Sans', arial, serif;
+}
 
 .gif{
   align-items: center;
-  margin-top: -2%;
+  margin-top: -.5%;
+  margin-left: 40%;
 }
 
 .header{
-  align-items: center;
   font-size: 20px;
-  margin-left: 10%;
+  margin-left: 30%;
+  font-family: 'Droid Sans', arial, serif;
+  font-size: 35px;
+  margin-top: -2.5%;
+  color: white;
 }
 
 .problems{
-
+  margin-left:32.5%;
+  color: white;
 }
+a:link{
+  color:white;
+  }
+a:visited{
+  color: white;
+}
+a active: none;
