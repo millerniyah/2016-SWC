@@ -74,9 +74,9 @@ p {
   border-top: 2.5px solid grey;
   border-bottom: 2.5px solid grey;
   border-right: 2.5px solid grey;
-  border-left: -15px solid grey;
+  border-left: -2.5px solid grey;
   margin-top: 5%;
-  margin-right: 20%;
+  margin-left: -20%;
   margin-bottom:auto;
   margin-left: 20%;
   text-align: center;
