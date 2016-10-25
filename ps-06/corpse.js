@@ -1,4 +1,4 @@
-var myCanvas = document.getElementById('monster');
+var myCanvas = document.getElementById('corpse');
 var ctx = myCanvas.getContext('2d');
 
 var millerniyah = {};
