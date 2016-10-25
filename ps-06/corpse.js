@@ -1,4 +1,4 @@
-var canvas = document.getElementById('monster');
+var mycanvas = document.getElementById('monster');
 var ctx = canvas.getContext('2d');
 
 var millerniyah = {};
@@ -11,22 +11,22 @@ var drawImage = function(filename, ctx, x, y) {
   });
 }
 
-millerniyah.drawHead = function(ctx) {
+millerniyah.drawTop = function(ctx) {
   drawImage("https://millerniyah.github.io/2016-SWC/ps-06/head.png", ctx, 0, 0);
 };
 
-millerniyah.drawBody = function(ctx) {
+millerniyah.drawMiddle = function(ctx) {
   drawImage("https://millerniyah.github.io/2016-SWC/ps-06/body.png", ctx, 0, 240);
 };
 
-millerniyah.drawFeet = function(ctx) {
+millerniyah.drawBottom = function(ctx) {
   drawImage("https://millerniyah.github.io/2016-SWC/ps-06/legs.png", ctx, 0, 480);
 };
 
 millerniyah.drawCorpse = function(ctx) {
-  millerniyah.drawHead(ctx);
-  millerniyah.drawBody(ctx);
-  millerniyah.drawFeet(ctx);
+  millerniyah.drawTop(ctx);
+  millerniyah.drawMiddle(ctx);
+  millerniyah.drawBottom(ctx);
 };
 
 window.millerniyah = millerniyah;
