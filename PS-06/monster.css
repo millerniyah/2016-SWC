@@ -1,0 +1,18 @@
+body{
+  background: black;
+}
+
+.name{
+  font-family: Creepster;
+  text-align: center;
+  font-size: 50px;
+  color: red;
+}
+
+.datebox{
+  font-family: Creepster;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30%;
+  color: red;
+}
