@@ -5,14 +5,35 @@ body{
 .name{
   font-family: Creepster;
   text-align: center;
+  font-size: 65px;
+  color: red;
+}
+
+
+.enter{
+  font-family: Creepster;
+  text-align: center;
   font-size: 50px;
   color: red;
 }
+
+a:visited{
+  color: red;
+}
+a:link{
+  text-decoration: line-through;
+}
+
 
 .datebox{
   font-family: Creepster;
   text-align: center;
   font-size: 25px;
-  margin-top: 30%;
   color: red;
+  margin-top: -5%;
+}
+
+.gif{
+  margin-left: 40%;
+  margin-top: 5%;
 }
