@@ -1,0 +1,17 @@
+.name{
+ font-family:Poiret One;
+ color: #BC8F8F;
+ font-size: 25px;
+ line-height: 4px;
+ border-bottom: dotted 2px;
+ width: 7em;
+}
+
+body{
+  background: #696969;
+}
+
+#image1{
+  margin-left: 40%;
+  margin-top: 10%;
+}

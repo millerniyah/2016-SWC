@@ -1,0 +1,6 @@
+.canvas {
+  border: 1px dashed hsl(0,10%,75%);
+  width: 39.5%;
+  height: 50%;
+  margin-left: -30%;
+}
