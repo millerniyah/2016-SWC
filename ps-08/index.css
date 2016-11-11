@@ -1,23 +1,50 @@
 body{
-  background: grey;
+  background: lightgrey;
 }
 
 .name{
   font-family: 'Dancing Script';
-  font-size: 12px;
+  font-size: 18px;
+  color: white;
+  border-bottom: 1px dotted white;
+  line-height: 4px;
+  width: 200px;
+  margin-top: 200px;
+  margin-left: 150px;
+
 }
 
 .date{
   font-family: 'Dancing Script';
-  font-size: 12px;
+  font-size: 8px;
+  color: white;
+  margin-left: 150px;
 }
 
 .link1{
   font-family: 'Dancing Script';
-  font-size: 12px;
+  font-size: 20px;
+  color: white;
+  margin-left: 300px;
 }
 
 .link2{
   font-family: 'Dancing Script';
-  font-size: 12px;
+  font-size: 20px;
+  color: white;
+  margin-left: 300px;
+}
+
+a:link{
+  text-decoration: none;
+  color: white;
+}
+
+a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: line-through;
 }
