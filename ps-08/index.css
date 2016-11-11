@@ -5,46 +5,47 @@ body{
 .name{
   font-family: 'Dancing Script';
   font-size: 18px;
-  color: white;
-  border-bottom: 1px dotted white;
+  color: grey;
+  border-bottom: 2px dotted grey;
   line-height: 4px;
-  width: 200px;
+  width: 150px;
   margin-top: 200px;
-  margin-left: 150px;
+  margin-left: 400px;
 
 }
 
 .date{
   font-family: 'Dancing Script';
   font-size: 8px;
-  color: white;
-  margin-left: 150px;
+  color: grey;
+  margin-left: 400px;
 }
 
 .link1{
   font-family: 'Dancing Script';
   font-size: 20px;
-  color: white;
+  color: grey;
   margin-left: 300px;
 }
 
 .link2{
   font-family: 'Dancing Script';
   font-size: 20px;
-  color: white;
+  color: grey;
   margin-left: 300px;
 }
 
 a:link{
   text-decoration: none;
-  color: white;
+  color: grey;
 }
 
 a:visited{
   text-decoration: none;
-  color: white;
+  color: grey;
 }
 
 a:hover{
   text-decoration: line-through;
+  color: white;
 }
