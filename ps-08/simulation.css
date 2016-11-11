@@ -8,8 +8,8 @@ html, body {
 }
 
 
-h1 {
-  font-family: "Hevletica Neue", Helvetica, Arial, Verdana;
+p {
+    font-family: 'Dancing Script';
     display: block;
     font-size: 80px;
     color: #bababa;
