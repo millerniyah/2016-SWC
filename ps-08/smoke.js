@@ -1,6 +1,3 @@
-/** MY PARTICLES **/
-
-// shim layer with setTimeout fallback
 window.requestAnimFrame = (function(){
   return  window.requestAnimationFrame       ||
           window.webkitRequestAnimationFrame ||
@@ -52,7 +49,7 @@ var Particles = function() {
         document.onmouseup = function() {
             self.addPuffs = false;
         }
-        //CREATE THE CANVAS
+
         this.canvas = document.createElement('canvas');
         this.canvas.id = 'canvas';
 
@@ -78,25 +75,24 @@ var Particles = function() {
         element.style.left = 0
     }
 
-    //STEP DONE EACH FRAME
+
     this.tick = function() {
 
         var self = this;
         var puffLength = this.puffs.length;
 
-        //ONLY ADD PUFFS WHEN NEEDED
+        //ADD PUFFS WHEN NEEDED
         if ( this.addPuffs && ( puffLength < this.maxParticles )) {
             this.puffs.push(this.newPuff());
         }
 
         this.ctx.clearRect(0,0,this.cWidth,this.cHeight)
 
-        //ANIMATE PUFFS PROPERTIES
+        //ANIMATE PUFFS
         for(var i = 0; i < puffLength ; i++) {
             var currentPuff = this.puffs[i];
             if( currentPuff ) {
 
-                //REMOVE THE CURRENPUFF IF IT HAS GONE INVISIBLE OR IF IT LIVED LONG ENOUGH
                 if(currentPuff.age == this.maxLife || currentPuff.alpha <= .05) {
                     this.puffs.splice(0, 1);
                 } else {
