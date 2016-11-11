@@ -1,0 +1,58 @@
+body{
+  background: lightgrey;
+}
+
+.name{
+  font-family: 'Dancing Script';
+  font-size: 18px;
+  color: grey;
+  border-bottom: 2px dotted grey;
+  line-height: 4px;
+  width: 150px;
+  margin-top: 200px;
+  margin-left: 400px;
+
+}
+
+.date{
+  font-family: 'Dancing Script';
+  font-size: 8px;
+  color: grey;
+  margin-left: 400px;
+}
+
+.link1{
+  font-family: 'Dancing Script';
+  font-size: 20px;
+  color: grey;
+  margin-left: 300px;
+}
+
+.link2{
+  font-family: 'Dancing Script';
+  font-size: 20px;
+  color: grey;
+  margin-left: 300px;
+}
+
+.link3{
+  font-family: 'Dancing Script';
+  font-size: 20px;
+  color: grey;
+  margin-left: 300px;
+}
+
+a:link{
+  text-decoration: none;
+  color: grey;
+}
+
+a:visited{
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover{
+  text-decoration: line-through;
+  color: white;
+}
