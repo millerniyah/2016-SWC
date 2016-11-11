@@ -1,0 +1,12 @@
+body { margin: 0; }
+
+div#container {
+	height:600px;
+	width:100%;
+	background: black;
+}
+
+#target {
+  position: absolute;
+  filter: drop-shadow(-12px 12px 7px rgba(0,0,0,0.5));
+}
