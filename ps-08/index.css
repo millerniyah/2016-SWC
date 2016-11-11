@@ -3,17 +3,21 @@ body{
 }
 
 .name{
-  ont-family: 'Playfair Display SC';
+  font-family: 'Dancing Script';
+  font-size: 12px;
 }
 
 .date{
-  ont-family: 'Playfair Display SC';
+  font-family: 'Dancing Script';
+  font-size: 12px;
 }
 
 .link1{
-  font-family: 'Playfair Display SC';
+  font-family: 'Dancing Script';
+  font-size: 12px;
 }
 
 .link2{
-  font-family: 'Playfair Display SC';
+  font-family: 'Dancing Script';
+  font-size: 12px;
 }
