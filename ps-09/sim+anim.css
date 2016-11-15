@@ -1,0 +1,10 @@
+body{
+  background: lightblue;
+}
+div{
+  margin-left: 10%;
+}
+canvas{
+  height:700px;
+  width:100%;
+}
