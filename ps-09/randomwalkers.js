@@ -7,10 +7,10 @@ function makeNewPosition() {
 }
 
 function velocity(prev, next) {
-	var x = Math.abs(prev[1] - next[1]),
+	var x = Math.abs(prev[-1] - next[0]),
     y = Math.abs(prev[0] - next[0]),
     larger = x > y ? x : y,
-    speedModifier = 0.2,
+    speedModifier = 0.05,
     speed = Math.ceil(larger / speedModifier);
     return speed;
 }
@@ -38,3 +38,15 @@ target.onload = function() {
 }
 target.src = "http://www.clipartbest.com/cliparts/aie/o9z/aieo9zrXT.gif";
 container.appendChild(target);
+
+
+
+
+
+
+
+
+
+
+
+//Dudley Storey: https://codepen.io/dudleystorey/pen/OyRORZ
