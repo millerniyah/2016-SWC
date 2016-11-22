@@ -13,3 +13,7 @@ canvas{
   border-right: solid black;
   margin-top: -80%;
 }
+
+.snowflake{
+  color: white;
+}
