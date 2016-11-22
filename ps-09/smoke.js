@@ -152,3 +152,6 @@ window.onload = function() {
 	gui.add(particles, 'maxLife', 0, 400);
 	gui.add(particles, 'alphaDie', 0, .1);
 }
+
+
+//Jonas Grumann
