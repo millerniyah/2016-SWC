@@ -50,3 +50,7 @@ var circles = svg.selectAll("circle")
   	.attr("cx", function(d) {return xScale(d.x);})
     .attr("cy", function(d) {return yScale(d.y);})
     .attr("r", 3);
+
+    //http://www.vanityfair.com/news/2016/07/data-police-racial-bias
+    //http://mappingpoliceviolence.org/
+    
