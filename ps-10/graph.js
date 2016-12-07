@@ -25,7 +25,7 @@ var xScale = d3.scaleBand()
   	.rangeRound([margin.left, width - margin.right]);
 
 var yScale = d3.scaleLinear()
-	.domain([0,100,000])
+	.domain([250,2500])
   	.range([height-margin.bottom, margin.top]);
 
 // Draw axes
@@ -35,7 +35,7 @@ var xAxis = svg.append("g")
 
 var yAxis = svg.append("g")
 	.attr("transform","translate(" + margin.left + ",0)")
-	.call(d3.axisLeft().scale(yScale));
+	.call(d3.axisLeft().scale(yScale).ticks(5));
 
 // Draw bars for bar chart
 var barWidth = 40;
@@ -51,7 +51,7 @@ var bars = svg.selectAll("rect")
 		.attr("height", function(d) {
 		  return height - margin.bottom - yScale(d.y);
 		})
-    .attr("fill","steelblue");
+    .attr("fill","orange");
 
     //http://www.vanityfair.com/news/2016/07/data-police-racial-bias
     //http://mappingpoliceviolence.org/
