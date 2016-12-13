@@ -65,3 +65,10 @@ img{
   padding-top:75;
   position: absolute;
 }
+
+svg {
+    margin-top: 1550px;
+    position: absolute;
+    margin-left: 700px;
+    width: 500px;
+}
