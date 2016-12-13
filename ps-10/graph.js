@@ -35,7 +35,7 @@ var xAxis = svg.append("g")
 
 var yAxis = svg.append("g")
 	.attr("transform","translate(" + margin.left + ",0)")
-	.call(d3.axisLeft().scale(yScale).ticks(5));
+	.call(d3.axisLeft().scale(yScale).ticks(10));
 
 // Draw bars for bar chart
 var barWidth = 40;
